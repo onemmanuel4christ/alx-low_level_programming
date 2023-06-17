@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print if the number is postive, zero, or negative
+* main - print lowercase alphabet
 *
-* Description: This program prints Programming is positive, zero, or negative
+* Description: This program prints alphabet
 * Return: 0
 */
 
