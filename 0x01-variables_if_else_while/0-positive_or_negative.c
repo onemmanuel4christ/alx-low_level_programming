@@ -16,15 +16,15 @@ srand(time(0));
 newNum = rand() - RAND_MAX / 2;
 if (newNum > 0)
 {
-	printf("%i is positive\n", newNum);
+	printf("%d is positive\n", newNum);
 }
 else if (newNum == 0)
 {
-	printf("%i is zero\n", newNum);
+	printf("%d is zero\n", newNum);
 }
 else if (newNum < 0)
 {
-	printf("%i is negative\n", newNum);
+	printf("%d is negative\n", newNum);
 }
 return (0);
 }
