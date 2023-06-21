@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_sign - program to print a sign of a number
  * @n:  is used for arument funtion
