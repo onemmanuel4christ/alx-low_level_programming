@@ -1,28 +1,34 @@
 #include "main.h"
 
 /**
- * leet - encodes a string into 1337.
- * @s: string to encode.
- * Return: the encoded string.
+ * puts_half - function that prints half of a string, followed by a new line.
+ * @str: declaration of n and paramters for the function
+ * Return: Always 0.
  */
-
-char *leet(char *s)
+void puts_half(char *str)
 {
-	int i = 0, j = 0;
-	char array_leet[] = {'4', '3', '1', '0', '7'};
-	char array_up[] = {'A', 'E', 'L', 'O', 'T'};
-	char array_low[] = {'a', 'e', 'l', 'o', 't'};
+	int c, a;
+	char l;
 
-	while (s[i] != '\0')
+	for (c = 0; str[c] != 0; c++)
 	{
-		for (j = 0; j < 5; j++)
-		{
-			if (s[i] == array_low[j] || s[i] == array_up[j])
-				s[i] = array_leet[j];
-		}
-		i++;
 	}
-
-	return (s);
+	if (c % 2 == 0)
+	{
+		for ((a = c / 2); str[a] != 0; a++)
+		{
+			l = str[a];
+			_putchar(l);
+		}
+	}
+	else
+        {
+                for ((a = (c - 1) / 2); str[a] != 0; a++)
+                {
+                        l = str[a];
+                        _putchar(l);
+                }
+        }
+	_putchar('\n');
 }
 
