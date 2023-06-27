@@ -1,39 +1,23 @@
 #include "main.h"
-
 /**
- * cap_string - Capitalizes all words of a string.
- * @str: The string to be capitalized.
+ * main - check the code
  *
- * Return: A pointer to the changed string.
- */
-char *cap_string(char *str)
-{
-	int index = 0;
+ * Return: Always 0.
+*/
+#include <stdio.h>
 
-	while (str[index])
-	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
+void puts2(const char* string) {
+    int i;
 
-		if (str[index - 1] == ' ' ||
-		    str[index - 1] == '\t' ||
-		    str[index - 1] == '\n' ||
-		    str[index - 1] == ',' ||
-		    str[index - 1] == ';' ||
-		    str[index - 1] == '.' ||
-		    str[index - 1] == '!' ||
-		    str[index - 1] == '?' ||
-		    str[index - 1] == '"' ||
-		    str[index - 1] == '(' ||
-		    str[index - 1] == ')' ||
-		    str[index - 1] == '{' ||
-		    str[index - 1] == '}' ||
-		    index == 0)
-			str[index] -= 32;
+    for (i = 0; string[i] != '\0'; i += 2) {
+        printf("%c\n", string[i]);
+    }
+}
 
-		index++;
-	}
+int main() {
+    const char* my_string = "Hello, world!";
 
-	return (str);
+    puts2(my_string);
+    return 0;
 }
 
