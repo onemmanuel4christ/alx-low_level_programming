@@ -4,7 +4,6 @@
  * @str: input
  * Return: print
  */
-
 void puts2(char *str)
 {
 	int longi = 0;
@@ -17,13 +16,11 @@ void puts2(char *str)
 
 	while (*y != '\0')
 	{
-		y++;
-		longi++
+	y++;
+	longi++
 
 	}
-
 	t = longi - 1;
-
 	for (o = 0; o <= t; o++)
 	{
 		if (0 % 2 == 0)
