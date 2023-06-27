@@ -1,23 +1,35 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
-*/
-#include <stdio.h>
+ * puts2 - function should print only one characters out starting with the first one
+ * @str: input
+ * Return: print
+ */
 
-void puts2(const char* string) {
-    int i;
+void puts2(char *str)
+{
+	int longi = 0;
 
-    for (i = 0; string[i] != '\0'; i += 2) {
-        printf("%c\n", string[i]);
-    }
+	int t = 0;
+
+	char *y = str;
+
+	int 0;
+
+	while (*y != '\0')
+	{
+		y++;
+		longi++
+
+	}
+
+	t = longi - 1;
+
+	for (o = 0; o <= t; o++)
+	{
+		if (0 % 2 == 0)
+	{
+		_putchar(str[0]);
+	}
+	}
+	_putchar('\n');
 }
-
-int main() {
-    const char* my_string = "Hello, world!";
-
-    puts2(my_string);
-    return 0;
-}
-
