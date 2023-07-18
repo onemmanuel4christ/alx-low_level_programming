@@ -3,13 +3,11 @@
 
 
 	/**
-	 * init_dog - initializes a to inherit dog construct
-	 * @d: pointer to intizing a dog struct
-	 * @name: name to initializ
+	 * init_dog - initializes a variable of type struct dog
+	 * @d: pointer to struct dog to initialize
+	 * @name: name to initialize
 	 * @age: age to initialize
 	 * @owner: owner to initialize
-	 *
-	 * Description: this program uses a struct in C
 	 */
 	void init_dog(struct dog *d, char *name, float age, char *owner)
 	{
