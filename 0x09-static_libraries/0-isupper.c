@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * isupper - this will return upper case caharcter
+ * main - this will return upper case caharcte
+ * Description: the upper case program
  * @c: this defines the characters to be checked
- *
  * Return: true or false
 */
 

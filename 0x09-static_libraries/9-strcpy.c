@@ -12,15 +12,15 @@ int a = 0;
 
 int b = 0;
 
-while (*(src + a) != '\0)
+while (*(src + a) != '\0')
 	{
-	a++;
+		a++;
 	}
-for ( ; b < a ; b++)
+	for (; b < a ; b++)
 	{
-	dest[b] = src[b];
+		dest[b] = src[b];
 	}
 dest[a] = '\0';
 
 return (dest);
-
+}

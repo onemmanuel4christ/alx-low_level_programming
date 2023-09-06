@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
+ * _strspn - Main  point for the function
+ * @s: input fo the functiion
+ * @accept: input accept the function input
  * Return: Always 0 (Success)
 */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
+
 	int r;
+
 	while (*s)
 	{
 		for (r = 0; accept[r]; r++)
