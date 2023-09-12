@@ -1,1 +1,1 @@
-solution for 0x0E-structurestypedef task
+Solution for 0x0E-structurestypedef tasks
