@@ -4,8 +4,7 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ * main - This is a function that will check the code
  * Return: Always 0.
  */
 int main(void)
